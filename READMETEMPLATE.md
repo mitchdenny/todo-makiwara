@@ -1,0 +1,1 @@
+TOOD: Add a Makiwara template.
