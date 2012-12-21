@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoMakiwara", "TodoMakiwara\TodoMakiwara.csproj", "{329C9653-8DE8-448B-9C9E-2480CE2F0C30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoMakiwara.Web", "TodoMakiwara.Web\TodoMakiwara.Web.csproj", "{566F1E8E-4674-4261-ABD1-F9D9AE08078F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoMakiwara.Tests", "TodoMakiwara.Tests\TodoMakiwara.Tests.csproj", "{E939CA12-BF1C-48D0-BF28-A955CCA20283}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{329C9653-8DE8-448B-9C9E-2480CE2F0C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329C9653-8DE8-448B-9C9E-2480CE2F0C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329C9653-8DE8-448B-9C9E-2480CE2F0C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329C9653-8DE8-448B-9C9E-2480CE2F0C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566F1E8E-4674-4261-ABD1-F9D9AE08078F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566F1E8E-4674-4261-ABD1-F9D9AE08078F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566F1E8E-4674-4261-ABD1-F9D9AE08078F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566F1E8E-4674-4261-ABD1-F9D9AE08078F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E939CA12-BF1C-48D0-BF28-A955CCA20283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E939CA12-BF1C-48D0-BF28-A955CCA20283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E939CA12-BF1C-48D0-BF28-A955CCA20283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E939CA12-BF1C-48D0-BF28-A955CCA20283}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
