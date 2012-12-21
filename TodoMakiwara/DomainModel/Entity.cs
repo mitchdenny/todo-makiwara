@@ -12,6 +12,6 @@ namespace TodoMakiwara.DomainModel
             ID = Guid.NewGuid();
         }
 
-        public Guid ID { get; protected set;
+        public Guid ID { get; protected set; }
     }
 }
