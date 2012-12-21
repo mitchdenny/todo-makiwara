@@ -24,7 +24,7 @@ namespace Todo.Tests.DomainModel
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException))]
+        [ExpectedException(typeof(FormatException))]
         public void GivenInvalidEmailAddressWhenUserIsCreatedExceptionIsThrown()
         {
             // Arrange.

@@ -12,6 +12,7 @@ namespace Todo.DomainModel
         public User(string emailAddress)
         {
             emailAddress.ThrowIfNullOrEmpty();
+            emailAddress.ThrowIfInvalidEmailAddress();
             EmailAddress = emailAddress;
         }
 
@@ -27,6 +28,7 @@ namespace Todo.DomainModel
             set
             {
                 value.ThrowIfNullOrEmpty();
+                value.ThrowIfInvalidEmailAddress();
                 m_EmailAddress = value;
             }
         }
