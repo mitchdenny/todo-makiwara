@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace TodoMakiwara.Web
+namespace Todo.Web
 {
     public static class WebApiConfig
     {

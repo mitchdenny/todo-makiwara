@@ -7,7 +7,7 @@
     <ProjectGuid>{329C9653-8DE8-448B-9C9E-2480CE2F0C30}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TodoMakiwara</RootNamespace>
+    <RootNamespace>Todo</RootNamespace>
     <AssemblyName>TodoMakiwara</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

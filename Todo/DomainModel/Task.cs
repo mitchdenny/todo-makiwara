@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 
-namespace TodoMakiwara.DomainModel
+namespace Todo.DomainModel
 {
     public class Task : Aggregate
     {

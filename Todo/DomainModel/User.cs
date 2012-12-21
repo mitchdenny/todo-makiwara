@@ -4,11 +4,11 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 
-namespace TodoMakiwara.DomainModel
+namespace Todo.DomainModel
 {
-    public class Status : Aggregate
+    public class User : Aggregate
     {
-        public string Text { get; set; }
+        public string EmailAddress { get; set; }
         public virtual Collection<Task> Tasks { get; set; }
     }
 }

@@ -6,7 +6,7 @@
     <ProjectGuid>{E939CA12-BF1C-48D0-BF28-A955CCA20283}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TodoMakiwara.Tests</RootNamespace>
+    <RootNamespace>Todo.Tests</RootNamespace>
     <AssemblyName>TodoMakiwara.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -54,6 +54,12 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Todo\Todo.csproj">
+      <Project>{329c9653-8de8-448b-9c9e-2480ce2f0c30}</Project>
+      <Name>Todo</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
