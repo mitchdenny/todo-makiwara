@@ -49,5 +49,40 @@ namespace Todo.Tests.DomainModel
             // Act.
             var user = new User(null);
         }
+
+        [TestMethod]
+        public void GivenValidUserWhenTaskCreatedIsAddedToUserTasksList()
+        {
+            // Arrange.
+            var validUser = new User("someone@somewhere.com");
+
+            // Act.
+            var task = validUser.CreateTask("Pick up milk.");
+
+            // Assert.
+            Assert.IsTrue(validUser.Tasks.Contains(task));
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException))]
+        public void GivenValidUserWhenTaskCreatedWithNullDescriptionExceptionIsThrown()
+        {
+            // Arrange.
+            var validUser = new User("someone@somewhere.com");
+
+            // Act.
+            validUser.CreateTask(null);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void GivenValidUserWhenTaskCreatedWithEmptyStringDescriptionExceptionIsThrown()
+        {
+            // Arrange.
+            var validUser = new User("someone@somewhere.com");
+
+            // Act.
+            validUser.CreateTask(string.Empty);
+        }
     }
 }

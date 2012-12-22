@@ -10,16 +10,16 @@ namespace Todo
 {
     internal static class StringExtensions
     {
-        public static void ThrowIfNullOrEmpty(this string value, [CallerMemberName]string parameterName = "value")
+        public static void ThrowIfNullOrEmpty(this string value, [CallerMemberName]string paramName = "value")
         {
             if (value == null)
             {
-                throw new ArgumentNullException(parameterName);
+                throw new ArgumentNullException(paramName);
             }
 
             if (string.IsNullOrWhiteSpace(value))
             {
-                throw new ArgumentException(parameterName);
+                throw new ArgumentException(paramName);
             }
         }
 
